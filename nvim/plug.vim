@@ -15,7 +15,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'github/copilot.vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-eslint']
 
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
