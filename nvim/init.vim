@@ -124,6 +124,8 @@ endif
 runtime ./maps.vim
 "}}}
 
+"" for packer
+lua require('plugins')
 
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
@@ -146,7 +148,9 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme tokyonight 
 endif
 
+
 "}}}
+
 
 " Extras "{{{
 " ---------------------------------------------------------------------
